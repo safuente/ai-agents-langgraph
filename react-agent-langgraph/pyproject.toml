@@ -1,0 +1,11 @@
+[project]
+name = "react-agent-langgraph"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.6.12",
+    "langchain-openai>=1.7.2",
+    "langgraph>=1.2.16",
+    "python-dotenv>=1.2.4",
+]
