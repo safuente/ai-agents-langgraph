@@ -1,0 +1,19 @@
+[project]
+name = "ai-agents-langgraph"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "ddgs>=9.16.1",
+    "httpx>=0.28.1",
+    "ipython>=9.17.1",
+    "langchain-community>=0.4.2",
+    "langchain-core>=1.7.0",
+    "langchain-openai>=1.7.2",
+    "langgraph>=1.2.17",
+    "langgraph-checkpoint-sqlite>=3.1.2",
+    "openai>=3.37.0",
+    "python-dotenv>=1.2.4",
+    "requests>=2.34.2",
+    "tavily-python>=0.8.5",
+]
